@@ -1,0 +1,242 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+
+.main {
+    background-image: url(images/bc.jpg);
+    height: 70vh;
+    position: relative;
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.69;
+    background-color: rgb(28, 25, 25);
+    position: absolute;
+    top: 0%;
+
+}
+
+nav {
+    display: flex;
+    margin: auto;
+    max-width: 80vw;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+   
+
+}
+
+nav img {
+    color: red;
+    width: 130px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 23px;
+    padding: 0 30px;
+
+
+}
+
+.hero> :nth-child(1) {
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.hero>  :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+ 
+.separation{
+    height: 7px;
+    background-color: rgb(166, 159, 159);
+    position:relative;
+    z-index: 20;
+}
+
+.btn{
+    padding: 3px 8px;
+    font-weight: 400;
+    background-color: rgba(255, 255, 255, 0.39);
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.btn-red{
+    background-color: red;
+    color: white;
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 400;
+}
+
+.hero-buttons{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 16px;
+}
+
+.main input{
+padding: 7px 101px;
+font-size: 12px;
+font-weight: 600;
+color: white;
+border-radius: 4px;
+background-color: rgba(23, 23, 23, 0.2 );
+border: 1px solid rgba(255, 255, 255, 0.464);
+
+}
+.btn-red-sm{
+    background-color: red;
+    color: white;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    color: white;
+    margin: auto;
+
+}
+@media screen and (max-width: 1300px) {
+
+.first{
+    flex-wrap: wrap;
+}
+}
+    
+
+.secImg{
+position: relative;
+z-index:10;
+width: 555px;
+}
+
+
+
+.secImg video{
+   position: absolute;
+   top: 51px;
+   right: 0;
+   width: 555px;
+}
+section.first > div{
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+section.first > div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+section.first>div :nth-child(2){
+    font-size: 23px;
+    
+}
+
+.faq h2{
+    text-align: center;
+    font-size: 48px;
+}
+.faq{
+    background: black;
+    color: white;
+    padding: 34px;
+    
+}
+.faqbox:hover { 
+    border-color: rgb(37, 36, 36);
+    color: white;
+}
+
+.faqbox svg {
+    filter: invert(1);
+    
+}
+.faqbox { 
+    transition: all 1s ease-out;
+    display: flex;
+    padding: 24px;
+    margin: 34px auto;
+    background-color:rgb(61, 60, 60) ;
+    max-width: 60vw;
+    justify-content: space-between;
+    cursor: pointer;
+    color: white;
+ 
+}
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 14px;
+}
+
+footer .questions {
+padding: 34px 0;
+}
+
+.footer a{
+    font-size: 14px;
+    color: white ;
+}
+
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    gap: 25px;
+
+}
+
+.footer-item{
+display: flex;
+flex-direction: column;
+gap: 23px;
+}
